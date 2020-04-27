@@ -1,0 +1,28 @@
+h2 {
+    color: blue;
+    font-family: verdana;
+    font-size: 100%;
+  }
+  h5 {
+    color: blue;
+    font-family: verdana;
+    font-size: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+
+  p {
+    color: red;
+  font-family: courier;
+  font-size: 160%;
+
+  }
+  body{
+   
+     margin-left: 300px;
+     margin-top: 200px;
+  }
+
+  
+

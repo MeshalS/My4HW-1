@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="pink ">
+    <!-----adding container-->
+
+    </div>
+    <div class="container">
+
+        <h5 id="textW">
+            welcome to test
+        </h5>
+        <br />
+        <h3 id="timer"> </h3>
+        <div id="StartBtn"><button id="bttStart" onclick="StartQuiz()">start the Quiz</button></div>
+        <!-----adding begin hidden-->
+
+        <div id="begin" class="hidden">
+            <h2 id="num"></h2>
+            <p id="question"></p>
+            <!-----adding form-->
+
+            <form>
+                <div class="radio">
+                    <label><input id="0" type="radio" name="optradio" onclick="go()"><span id="a1"></span></label>
+                </div>
+                <div class="radio">
+                    <label><input id="1" type="radio" name="optradio" onclick="go()"><span id="a2"></span></label>
+                </div>
+                <div class="radio">
+                    <label><input id="2" type="radio" name="optradio" onclick="go()"><span id="a3"></span></label>
+                </div>
+                <div class="radio">
+                    <label><input id="3" type="radio" name="optradio" onclick="go()"><span id="a4"></span></label>
+                </div>
+
+            </form>
+
+
+        </div>
+        <!-----message -->
+
+        <div id="message" class="hidden">
+
+        </div>
+        <div id="highScore" class="hidden">
+            <input id="initials" placeholder="enter the name" />
+            <button id="SaveInitials" onclick="SaveInitials()"> click to show the score </button>
+
+        </div>
+        <!-----go back -->
+
+        <div id="goback" class="hidden">
+            <div id="Results"> </div>
+            <button onclick="goback()"> go back agin to the page</button>
+            <button onclick="displayResults()"> display the results</button>
+        </div>
+    </div>
+    <script src="Qi.js"></script>
+
+</body>
+</html>
